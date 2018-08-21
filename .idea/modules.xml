@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hubspot.iml" filepath="$PROJECT_DIR$/hubspot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hubspot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hubspot_main.iml" group="hubspot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hubspot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hubspot_test.iml" group="hubspot" />
+    </modules>
+  </component>
+</project>
