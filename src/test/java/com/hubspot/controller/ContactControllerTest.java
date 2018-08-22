@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.net.URISyntaxException;
+
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.verify;
 
@@ -18,25 +20,19 @@ public class ContactControllerTest {
     private ContactListService contactListService;
 
     @BeforeEach
-    public void beforeEach() {
+    public void beforeEach() throws URISyntaxException {
         MockitoAnnotations.initMocks(this);
         doReturn(new Contact()).when(contactListController).getContactList();
         contactListController.getContactList();
     }
 
     @Test
-    public void contactListEndpointShouldWork() {
+    public void contactListEndpointShouldWork() throws URISyntaxException {
         verify(contactListController).getContactList();
     }
 
     @Test
-    public void contactListServiceShouldCallContactList() {
+    public void contactListServiceShouldCallContactList() throws URISyntaxException {
         verify(contactListService).getContactList();
     }
-
-    @Test
-    public void contactListServiceShouldHitHubSpotApi() {
-
-    }
-
 }

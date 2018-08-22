@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e0a0d1-07ba-4cfb-b67e-14a14eae172f" name="Default Changelist" comment="" />
+    <list default="true" id="06e0a0d1-07ba-4cfb-b67e-14a14eae172f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/hubspot/controller/ContactListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/hubspot/controller/ContactListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact$Identity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact$Identity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact$IdentityProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact$IdentityProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/hubspot/dto/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/hubspot/service/ContactListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/hubspot/service/ContactListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/hubspot/controller/ContactControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/hubspot/controller/ContactControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,59 +63,110 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1979820663">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2740" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2740" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#968#969#0" expanded="true" />
+                    <element signature="e#1009#1010#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="164">
+                  <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>restte</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -532,8 +597,7 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/../chargeback-gurus" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="IMPORT" />
       </map>
     </option>
   </component>
@@ -541,8 +605,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" />
       </list>
     </option>
   </component>
@@ -553,29 +620,33 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1280" />
-    <option name="height" value="1026" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hubspot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -585,13 +656,24 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534842137891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534898326488" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hubspot.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -605,7 +687,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HubspotApplication">
+  <component name="RunManager" selected="JUnit.ContactListServiceTest.getContactList">
     <configuration name="ContactControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hubspot_test" />
       <extension name="coverage">
@@ -620,6 +702,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactListServiceTest.getContactList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hubspot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubspot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubspot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hubspot.service.ContactListServiceTest" />
+      <option name="METHOD_NAME" value="getContactList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HubspotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hubspot_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hubspot.HubspotApplication" />
@@ -630,9 +728,11 @@
     <list>
       <item itemvalue="Spring Boot.HubspotApplication" />
       <item itemvalue="JUnit.ContactControllerTest" />
+      <item itemvalue="JUnit.ContactListServiceTest.getContactList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactListServiceTest.getContactList" />
         <item itemvalue="JUnit.ContactControllerTest" />
       </list>
     </recent_temporary>
@@ -648,52 +748,88 @@
       <option name="presentableId" value="Default" />
       <updated>1534841615929</updated>
       <workItem from="1534841617157" duration="249000" />
+      <workItem from="1534892628854" duration="797000" />
+      <workItem from="1534893453232" duration="4837000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 16m 51s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 18m 25s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 29m 27s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 29m 37s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 31m 48s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 32m 19s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 33m 07s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 33m 23s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 35m 34s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.21 at 20h 35m 40s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249000" />
+    <option name="totallyTimeSpent" value="5883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1280" height="1026" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29092383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19690502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32516703" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32516703" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32918552" />
+      <window_info anchor="right" x="0" y="0" width="430" height="814" id="Documentation" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,42 +838,77 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>jsonContacts</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.0-RC1/junit-platform-commons-1.3.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
           </folding>
         </state>
       </provider>
