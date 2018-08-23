@@ -8,6 +8,8 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.verify;
@@ -18,21 +20,17 @@ public class ContactControllerTest {
     private ContactListController contactListController;
     @Mock
     private ContactListService contactListService;
+    private List<Contact> contactList;
 
     @BeforeEach
     public void beforeEach() throws URISyntaxException {
         MockitoAnnotations.initMocks(this);
-        doReturn(new Contact()).when(contactListController).getContactList();
-        contactListController.getContactList();
+        doReturn(new ArrayList()).when(contactListController).getContactList();
+        contactList = contactListController.getContactList();
     }
 
     @Test
     public void contactListEndpointShouldWork() throws URISyntaxException {
         verify(contactListController).getContactList();
-    }
-
-    @Test
-    public void contactListServiceShouldCallContactList() throws URISyntaxException {
-        verify(contactListService).getContactList();
     }
 }
