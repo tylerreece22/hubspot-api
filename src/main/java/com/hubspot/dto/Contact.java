@@ -23,7 +23,7 @@ public class Contact {
     private String profileToken;
     @JsonProperty("profile-url")
     private String profileUrl;
-    private Properties properties;
+    private HashMap properties;
     @JsonProperty("form-submissions")
     private List<FormSubmission> formSubmissions;
     @JsonProperty("identity-profiles")
