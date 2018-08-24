@@ -8,7 +8,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.net.URISyntaxException;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import static org.mockito.Mockito.doReturn;
@@ -25,7 +25,7 @@ public class ContactControllerTest {
     @BeforeEach
     public void beforeEach() throws URISyntaxException {
         MockitoAnnotations.initMocks(this);
-        doReturn(new ArrayList()).when(contactListController).getContactList();
+        doReturn(new LinkedList()).when(contactListController).getContactList();
         contactList = contactListController.getContactList();
     }
 

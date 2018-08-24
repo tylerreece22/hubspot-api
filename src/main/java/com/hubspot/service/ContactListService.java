@@ -6,9 +6,7 @@ import com.hubspot.dto.Contact;
 import com.hubspot.dto.FormSubmission;
 import com.hubspot.dto.IdentityProfile;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -20,18 +18,15 @@ import java.util.*;
 @Service
 public class ContactListService {
 
-    @Autowired
-    private Environment env;
-
     @Value("${contact.url}")
     private String contactUrl;
 
     public List<Contact> getContactList() throws URISyntaxException {
         RestTemplate restTemplate = new RestTemplate();
-        List<Contact> contacts = new ArrayList<>();
+        List<Contact> contacts = new LinkedList<>();
         ObjectMapper jsonObjectMapper = new ObjectMapper();
 
-        JsonNode jsonContacts = restTemplate.getForObject(new URI(contactUrl + "?hapikey=d0fad6c4-faa9-4e9d-89d1-0f8221e3ee96"), JsonNode.class);
+        JsonNode jsonContacts = restTemplate.getForObject(new URI( "https://api.hubapi.com/contacts/v1/lists/724/contacts/all?hapikey=d0fad6c4-faa9-4e9d-89d1-0f8221e3ee96"), JsonNode.class);
         JsonNode actualContacts = jsonContacts.get("contacts");
         actualContacts.forEach(jsonContact -> {
             log.info("Retrived Contact from https://api.hubapi.com/contacts/v1/lists/724/contacts/all\n" + jsonContact);
@@ -57,6 +52,29 @@ public class ContactListService {
         });
 
         return contacts;
+    }
+
+    public LinkedList<Contact> getContactsByWeek() throws URISyntaxException {
+        Date weekday = new Date();
+        LinkedList<Contact> contacts = (LinkedList<Contact>) getContactList();
+        contacts.sort(Comparator.comparing(Contact::getAddedAt));
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(weekday);
+        int weekNumber = calendar.WEEK_OF_YEAR;
+
+        return (LinkedList<Contact>) contacts.stream().filter(contact -> isDayOfWeek(contact, weekNumber));
+   }
+
+    private boolean isDayOfWeek(Contact contact, int weekNumber) {
+        Calendar contactCalendar = Calendar.getInstance();
+        contactCalendar.setTime(new Date(Long.parseLong(contact.getAddedAt()) * 1000L));
+        if (weekNumber == contactCalendar.WEEK_OF_YEAR) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
 }

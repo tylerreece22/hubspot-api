@@ -29,7 +29,7 @@ public class Contact {
     @JsonProperty("identity-profiles")
     private List<IdentityProfile> identityProfiles;
     @JsonProperty("merge-audits")
-    private ArrayList<String> mergeAudits;
+    private LinkedList<String> mergeAudits;
 
 
 

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06e0a0d1-07ba-4cfb-b67e-14a14eae172f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hubspot_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hubspot_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hubspot_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hubspot_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,33 +60,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.124" value="1" />
           <entry key="project.open.time.126" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="52" />
-          <entry key="java" value="7098" />
-          <entry key="properties" value="63" />
+          <entry key="java" value="11360" />
+          <entry key="properties" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="52" />
-          <entry key="JAVA" value="7098" />
-          <entry key="Properties" value="63" />
+          <entry key="JAVA" value="11360" />
+          <entry key="Properties" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
           <entry key="properties" value="2" />
         </counts>
       </usages-collector>
@@ -96,7 +96,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
@@ -107,11 +107,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -128,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/dto/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="90">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,13 +140,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
               <folding>
-                <element signature="e#755#771#1" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,12 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="90">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -184,7 +183,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>restte</find>
+      <find>(</find>
+      <find>ArrayList</find>
     </findStrings>
+    <replaceStrings>
+      <replace>LinkedList1</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -630,14 +634,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Properties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/dto/IdentityProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/dto/FormSubmission.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hubspot/controller/ContactControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/dto/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
       </list>
     </option>
   </component>
@@ -647,7 +651,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="1014" />
@@ -657,7 +661,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -718,6 +721,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hubspot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hubspot" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -737,12 +750,53 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hubspot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hubspot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -756,7 +810,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/tyler/kelp-projects/hubspot-api/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535067307005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535153343354" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -787,41 +841,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContactListServiceTest.getContactList">
+  <component name="RunManager" selected="Spring Boot.HubspotApplication">
     <configuration name="All in hubspot_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hubspot_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hubspot_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hubspot.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hubspot.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.hubspot.controller.ContactControllerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactControllerTest.contactListEndpointShouldWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hubspot_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hubspot.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hubspot.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.hubspot.controller.ContactControllerTest" />
-      <option name="METHOD_NAME" value="contactListEndpointShouldWork" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -842,6 +866,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactListServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hubspot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubspot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubspot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hubspot.service.ContactListServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactListServiceTest.getContactList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hubspot_test" />
       <extension name="coverage">
@@ -858,6 +896,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactListServiceTest.shouldReturnListOfContactsSortedByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hubspot_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubspot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubspot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hubspot.service.ContactListServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnListOfContactsSortedByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HubspotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hubspot_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hubspot.HubspotApplication" />
@@ -867,19 +921,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.HubspotApplication" />
-      <item itemvalue="JUnit.ContactControllerTest" />
       <item itemvalue="JUnit.ContactListServiceTest.getContactList" />
       <item itemvalue="JUnit.All in hubspot_test" />
-      <item itemvalue="JUnit.ContactControllerTest.contactListEndpointShouldWork" />
       <item itemvalue="JUnit.ContactControllerTest.contactListServiceShouldCallContactList" />
+      <item itemvalue="JUnit.ContactListServiceTest.shouldReturnListOfContactsSortedByDate" />
+      <item itemvalue="JUnit.ContactListServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactListServiceTest.shouldReturnListOfContactsSortedByDate" />
+        <item itemvalue="JUnit.ContactListServiceTest" />
         <item itemvalue="JUnit.ContactListServiceTest.getContactList" />
         <item itemvalue="JUnit.All in hubspot_test" />
         <item itemvalue="JUnit.ContactControllerTest.contactListServiceShouldCallContactList" />
-        <item itemvalue="JUnit.ContactControllerTest.contactListEndpointShouldWork" />
-        <item itemvalue="JUnit.ContactControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -899,49 +953,51 @@
       <workItem from="1534973801730" duration="9854000" />
       <workItem from="1535059143677" duration="2213000" />
       <workItem from="1535062444710" duration="3667000" />
+      <workItem from="1535146124888" duration="4128000" />
+      <workItem from="1535151143940" duration="2172000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 18h 38m 47s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 18h 39m 02s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 18h 39m 27s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 14m 42s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 19m 44s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 27m 30s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 30m 02s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 30m 17s.xml">
-      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 34m 51s.xml">
       <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ContactListServiceTest_getContactList - 2018.08.23 at 19h 38m 49s.xml">
       <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.24 at 17h 32m 24s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.24 at 17h 33m 18s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_getContactList - 2018.08.24 at 17h 34m 07s.xml">
+      <configuration name="ContactListServiceTest.getContactList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_shouldReturnListOfContactsSortedByDate - 2018.08.24 at 19h 12m 59s.xml">
+      <configuration name="ContactListServiceTest.shouldReturnListOfContactsSortedByDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_shouldReturnListOfContactsSortedByDate - 2018.08.24 at 19h 14m 42s.xml">
+      <configuration name="ContactListServiceTest.shouldReturnListOfContactsSortedByDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_shouldReturnListOfContactsSortedByDate - 2018.08.24 at 19h 14m 59s.xml">
+      <configuration name="ContactListServiceTest.shouldReturnListOfContactsSortedByDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest - 2018.08.24 at 19h 16m 03s.xml">
+      <configuration name="ContactListServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactListServiceTest_shouldReturnListOfContactsSortedByDate - 2018.08.24 at 19h 16m 19s.xml">
+      <configuration name="ContactListServiceTest.shouldReturnListOfContactsSortedByDate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21617000" />
+    <option name="totallyTimeSpent" value="27917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1014" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20330843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -952,8 +1008,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29072398" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3484163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -978,7 +1034,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="right" x="0" y="0" width="430" height="814" id="Documentation" order="12" side_tool="true" weight="0.32977587" />
+      <window_info active="true" anchor="right" x="0" y="0" width="430" height="814" id="Documentation" order="12" side_tool="true" visible="true" weight="0.32977587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -986,24 +1042,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -1071,16 +1109,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/dto/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="90">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1088,37 +1119,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/configuration/RestTemplateConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hubspot/service/ContactListService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
           <folding>
-            <element signature="e#755#771#1" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
