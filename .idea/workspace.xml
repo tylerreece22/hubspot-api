@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e0a0d1-07ba-4cfb-b67e-14a14eae172f" name="Default Changelist" comment="" />
+    <list default="true" id="06e0a0d1-07ba-4cfb-b67e-14a14eae172f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,6 +103,7 @@
           <entry key="Dockerfile" value="36" />
           <entry key="gradle" value="52" />
           <entry key="java" value="11370" />
+          <entry key="md" value="574" />
           <entry key="properties" value="67" />
         </counts>
       </usages-collector>
@@ -107,6 +111,7 @@
         <counts>
           <entry key="Groovy" value="52" />
           <entry key="JAVA" value="11370" />
+          <entry key="Markdown" value="574" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="Properties" value="67" />
         </counts>
@@ -117,6 +122,7 @@
           <entry key="class" value="2" />
           <entry key="gradle" value="4" />
           <entry key="java" value="19" />
+          <entry key="md" value="1" />
           <entry key="properties" value="2" />
         </counts>
       </usages-collector>
@@ -125,6 +131,7 @@
           <entry key="CLASS" value="2" />
           <entry key="Groovy" value="4" />
           <entry key="JAVA" value="19" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
         </counts>
@@ -175,11 +182,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -699,6 +718,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hubspot/controller/ContactListController.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -725,17 +745,6 @@
             <path>
               <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
               <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hubspot-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hubspot" type="b2602c69:ProjectViewProjectNode" />
@@ -791,7 +800,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/tyler/kelp-projects/hubspot-api/src/test/java/com/hubspot/service/ContactListServiceTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535238506770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535239184258" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -808,6 +817,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -948,7 +960,7 @@
       <workItem from="1535062444710" duration="3667000" />
       <workItem from="1535146124888" duration="4128000" />
       <workItem from="1535151143940" duration="2254000" />
-      <workItem from="1535234929511" duration="2111000" />
+      <workItem from="1535234929511" duration="2789000" />
     </task>
     <servers />
   </component>
@@ -985,12 +997,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30110000" />
+    <option name="totallyTimeSpent" value="30788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20971185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20971185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1008,7 +1021,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32516703" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -1157,6 +1170,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
