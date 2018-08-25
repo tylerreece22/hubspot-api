@@ -25,8 +25,8 @@ public class ContactListController {
         return contactListService.getContactList();
     }
 
-    @RequestMapping(value = "/contacts-by-week", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<Contact> getContactsByWeek() throws URISyntaxException {
-        return contactListService.getContactsByWeek();
-    }
+//    @RequestMapping(value = "/contacts-by-week", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+//    public List<Contact> getContactsByWeek() throws URISyntaxException {
+//        return contactListService.getContactsByWeek();
+//    }
 }
